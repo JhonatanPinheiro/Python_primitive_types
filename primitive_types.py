@@ -26,6 +26,8 @@ print(a.islower())
 print(a.isupper())
 #Verifica se a String do conteúdo  é feito de somente espaços
 print(a.isspace())
+#Verifica se a String do conteúdo  está capitalizado 
+print(a.istitle())
 
 
 
