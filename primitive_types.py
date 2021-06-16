@@ -16,14 +16,17 @@ print(a.startswith('jh'))
 #Verifica se a String termina com determinado caractere, retornando verdadeiro ou falso.
 print(a.endswith('tan'))
 
-#Verifica se a String tem conteúdo alfa-numérico
+#Verifica se a String do conteúdo é alfa-numérico (contém numero ou letras)
 print(a.isalnum())
-#Verifica se a String tem o conteúdo apenas alfabético
+#Verifica se a String do conteúdo está feito somente em letras
 print(a.isalpha())
-#Verifica se a String tem o conteúdo minúsculo.
+#Verifica se a String do conteúdo está somente minúsculo.
 print(a.islower())
-#Verifica se a String tem o conteúdo em maiúsculo
+#Verifica se a String do conteúdo  está somente em maiúsculo
 print(a.isupper())
+#Verifica se a String do conteúdo  é feito de somente espaços
+print(a.isspace())
+
 
 
 
